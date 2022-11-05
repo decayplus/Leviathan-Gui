@@ -29,12 +29,12 @@ local healthbars = {}
 local healthbaroutlines = {}
 local words = {
     "ez",
-    "get good: get .gg/EzDK4AD5Yj",
+    "get good: get gg/F7XXxctaZW",
     "trash",
     "touch grass",
     "retard",
     "i love among us",
-    "the impostor?!?!?!",
+    "made by kibar zenci",
     "grass? whats that",
     "having issues playing the game? get .gg/EzDK4AD5Yj",
     "is your dad spiderman? because he far from home",
@@ -46,9 +46,9 @@ local words = {
     "do you like cheese?",
     "are you even trying to kill me???",
     "get rekt noobie",
-    "go get .gg/EzDK4AD5Yj now",
+    "go get .gg/F7XXxctaZW now",
     "imagine dying",
-    ".gg/EzDK4AD5Yj on top (not really)",
+    "gg/F7XXxctaZW on top ",
     "L Bozo",
     "clapped",
     "nothing personel kid",
@@ -72,7 +72,7 @@ local words = {
     "*Gorilla Sounds*",
     "What's up guys it's quandale dingle here.",
     "Bro got fake Jordans 💀",
-    "frkfx is so cool",
+    "kibar zenci is so cool",
     "Turi ip ip",
     "Say goodbye to your Kneecaps"
 }
@@ -356,8 +356,8 @@ pcall(function()
     end
 end)
 
-local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/StepBroFurious/Script/main/HydraHubUi.lua'))()
-local window = ui.new("frkfx#7420", Players.LocalPlayer.UserId, "ALPHA")
+local ui = loadstring(game:HttpGet('https://raw.githubusercontent.com/decayplus/raw/main/leviathan%20gui%20raw.txt'))()
+local window = ui.new(".gg/F7XXxctaZW", Players.LocalPlayer.UserId, "kibar zenci#0911")
 local main = window:Category("Rage", "rbxassetid://7733965386")
 local player = window:Category("Player", "rbxassetid://7743875962")
 local Combat = window:Category("Combat", "rbxassetid://7743878358")
@@ -1172,7 +1172,7 @@ for i,v in pairs(game.Players:GetPlayers()) do
             text.Text = v.Name
             text.Size = 20
             text.Outline = true
-            text.OutlineColor = Color3.new(0,0,0)        
+            text.OutlineColor = Color33.new(0,0,0)        
             text.Center = true
             texts[v] = text
         end)
@@ -1562,7 +1562,7 @@ end)
 local StarterGui = game:GetService("StarterGui")
 
 local Notifications = {
-	"Credits to Gus and Superbear",
+	"Credits to Kibar Zenci",
 	
 }
 
@@ -1573,7 +1573,7 @@ while true do
 		local Notification = Notifications[i]
 		
 		StarterGui:SetCore("SendNotification", {
-			Title = "frkfx",
+			Title = "Kibar Zenci",
 			Text = Notification,
 			Duration = 10
 		})
